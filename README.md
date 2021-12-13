@@ -4,78 +4,42 @@ Useful snippets for quicker Javascript development.
 
 ## Snippets
 
-1. **Snippet Prefix:** jsao
+(**snippet prefix**: snippet description)
 
-- array of objects template
+**jsao**: array of objects template
 
-1. **Snippet Prefix:** jsif
+**jsif**: if statement template
 
-- if statement template
+**jsife**: if statement template
 
-1. **Snippet Prefix:** jsife
+**jsto**: ternary operator template
 
-- if statement template
+**jscl**: console.log template
 
-1. **Snippet Prefix:** jsto
+**jscll**: console.log with a label template
 
-- ternary operator template
+**jsclc**: console.log with clipboard contents template
 
-1. **Snippet Prefix:** jscl
+**jsfm**: fetch method template
 
-- console.log template
+**jsaf**: arrow function template
 
-1. **Snippet Prefix:** jscll
+**jsfd**: function declaration template
 
-- console.log with a label template
+**jsis**: import statement template
 
-1. **Snippet Prefix:** jsclc
+**jsisn**: import statement with named exports template
 
-- console.log with clipboard contents template
+**jsfo**: for...of statement template
 
-1. **Snippet Prefix:** jsfm
+**jsfi**: for...of statement template
 
-- fetch method template
+**jsrn**: random number generator template
 
-1. **Snippet Prefix:** jsaf
+**jsrnr**: random number in a range generator template
 
-- arrow function template
+**jsst**: setTimeout template
 
-1. **Snippet Prefix:** jsfd
+**jstc**: try...catch template
 
-- function declaration template
-
-1. **Snippet Prefix:** jsis
-
-- import statement template
-
-1. **Snippet Prefix:** jsisn
-
-- import statement with named exports template
-
-1. **Snippet Prefix:** jsfo
-
-- for...of statement template
-
-1. **Snippet Prefix:** jsfi
-
-- for...of statement template
-
-1. **Snippet Prefix:** jsrn
-
-- random number generator template
-
-1. **Snippet Prefix:** jsrnr
-
-- random number in a range generator template
-
-1. **Snippet Prefix:** jsst
-
-- setTimeout template
-
-1. **Snippet Prefix:** jstc
-
-- try...catch template
-
-1. **Snippet Prefix:** jstcf
-
-- try...catch template with a fetch method
+**jstcf**: try...catch template with a fetch method
