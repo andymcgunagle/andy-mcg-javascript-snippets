@@ -1,0 +1,176 @@
+{
+	"JavaScript - array of objects": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsao",
+		"body": [
+			"const response = [",
+			"\t{",
+			"\t\t${1:key}: ${2:value},$0",
+			"\t},",
+			"];"
+		],
+		"description": "array of objects template"
+	},
+	"JavaScript - if statement": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsif",
+		"body": [
+			"if (${1:condition}) {$0};"
+		],
+		"description": "if statement template"
+	},
+	"JavaScript - if-else statement": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsife",
+		"body": [
+			"if (${1:condition}) {",
+			"\t$2",
+			"} else {",
+			"\t$0",
+			"};"
+		],
+		"description": "if statement template"
+	},
+	"JavaScript - ternary operator": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsto",
+		"body": [
+			"${1:condition} ? ${2:ifTrue} : ${3:ifFalse};"
+		],
+		"description": "ternary operator template"
+	},
+	"JavaScript - console.log": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jscl",
+		"body": [
+			"console.log($0);"
+		],
+		"description": "console.log template"
+	},
+	"JavaScript - console.log - with label": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jscll",
+		"body": [
+			"console.log(`\\n🪵 $1: ${$1}\\n`);"
+		],
+		"description": "console.log with a label template"
+	},
+	"JavaScript - console.log - clipboard contents": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsclc",
+		"body": [
+			"console.log($CLIPBOARD);"
+		],
+		"description": "console.log clipboard contents template"
+	},
+	"JavaScript - fetch method": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsfm",
+		"body": [
+			"const response = await fetch(`${1:path}`);",
+			"const data = await response.json();",
+			"$0"
+		],
+		"description": "fetch method template"
+	},
+	"JavaScript - arrow function": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsaf",
+		"body": [
+			"const ${1:functionName} = ($2) => $0;"
+		],
+		"description": "arrow function template"
+	},
+	"JavaScript - function declaration": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsfd",
+		"body": [
+			"function ${1:functionName}($2) {",
+			"\t$0",
+			"};"
+		],
+		"description": "function declaration template"
+	},
+	"JavaScript - import statement": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsis",
+		"body": [
+			"import ${1:defaultExport} from \"$0\";"
+		],
+		"description": "import statement template"
+	},
+	"JavaScript - import statement - named exports": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsisn",
+		"body": [
+			"import { $0 } from \"$1\";"
+		],
+		"description": "import statement with named exports template"
+	},
+	"JavaScript - for...of statement": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsfo",
+		"body": [
+			"for (const ${1:element} of ${2:array}) {$0};"
+		],
+		"description": "for...of statement template"
+	},
+	"JavaScript - for...in statement": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsfi",
+		"body": [
+			"for (const ${1:property} in ${2:object}) {$0};"
+		],
+		"description": "for...of statement template"
+	},
+	"JavaScript - random number": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsrn",
+		"body": [
+			"Math.floor(Math.random() * ${1:max})"
+		],
+		"description": "random number generator template"
+	},
+	"JavaScript - random number - in range": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsrnr",
+		"body": [
+			"Math.floor(Math.random() * (${1:max} - ${2:min}) + ${2:min}) ${3://The maximum is exclusive and the minimum is inclusive}"
+		],
+		"description": "random number in a range generator template"
+	},
+	"JavaScript - setTimeout": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jsst",
+		"body": [
+			"setTimeout(() => {$0}, 1000);"
+		],
+		"description": "setTimeout template"
+	},
+	"JavaScript - try...catch": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jstc",
+		"body": [
+			"try {",
+			"\t$0",
+			"} catch (error) {",
+			"\tconsole.error(error);",
+			"};"
+		],
+		"description": "try...catch template"
+	},
+	"JavaScript - try...catch with fetch": {
+		"scope": "javascript,typescript,javascriptreact",
+		"prefix": "jstcf",
+		"body": [
+			"try {",
+			"\tconst response = await fetch(`${1:path}`);",
+			"\tconst data = await response.json();",
+			"\t$0",
+			"} catch (error) {",
+			"\tconsole.error(error);",
+			"};"
+		],
+		"description": "try...catch with a fetch method template"
+	}
+}
