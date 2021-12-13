@@ -4,78 +4,78 @@ Useful snippets for quicker Javascript development.
 
 ## Snippets
 
-**Snippet Prefix:** jsao
+1. **Snippet Prefix:** jsao
 
-**Description:** array of objects template
+- array of objects template
 
-**Snippet Prefix:** jsif
+1. **Snippet Prefix:** jsif
 
-**Description:** if statement template
+- if statement template
 
-**Snippet Prefix:** jsife
+1. **Snippet Prefix:** jsife
 
-**Description:** if statement template
+- if statement template
 
-**Snippet Prefix:** jsto
+1. **Snippet Prefix:** jsto
 
-**Description:** ternary operator template
+- ternary operator template
 
-**Snippet Prefix:** jscl
+1. **Snippet Prefix:** jscl
 
-**Description:** console.log template
+- console.log template
 
-**Snippet Prefix:** jscll
+1. **Snippet Prefix:** jscll
 
-**Description:** console.log with a label template
+- console.log with a label template
 
-**Snippet Prefix:** jsclc
+1. **Snippet Prefix:** jsclc
 
-**Description:** console.log with clipboard contents template
+- console.log with clipboard contents template
 
-**Snippet Prefix:** jsfm
+1. **Snippet Prefix:** jsfm
 
-**Description:** fetch method template
+- fetch method template
 
-**Snippet Prefix:** jsaf
+1. **Snippet Prefix:** jsaf
 
-**Description:** arrow function template
+- arrow function template
 
-**Snippet Prefix:** jsfd
+1. **Snippet Prefix:** jsfd
 
-**Description:** function declaration template
+- function declaration template
 
-**Snippet Prefix:** jsis
+1. **Snippet Prefix:** jsis
 
-**Description:** import statement template
+- import statement template
 
-**Snippet Prefix:** jsisn
+1. **Snippet Prefix:** jsisn
 
-**Description:** import statement with named exports template
+- import statement with named exports template
 
-**Snippet Prefix:** jsfo
+1. **Snippet Prefix:** jsfo
 
-**Description:** for...of statement template
+- for...of statement template
 
-**Snippet Prefix:** jsfi
+1. **Snippet Prefix:** jsfi
 
-**Description:** for...of statement template
+- for...of statement template
 
-**Snippet Prefix:** jsrn
+1. **Snippet Prefix:** jsrn
 
-**Description:** random number generator template
+- random number generator template
 
-**Snippet Prefix:** jsrnr
+1. **Snippet Prefix:** jsrnr
 
-**Description:** random number in a range generator template
+- random number in a range generator template
 
-**Snippet Prefix:** jsst
+1. **Snippet Prefix:** jsst
 
-**Description:** setTimeout template
+- setTimeout template
 
-**Snippet Prefix:** jstc
+1. **Snippet Prefix:** jstc
 
-**Description:** try...catch template
+- try...catch template
 
-**Snippet Prefix:** jstcf
+1. **Snippet Prefix:** jstcf
 
-**Description:** try...catch template with a fetch method
+- try...catch template with a fetch method
